@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    position: absolute;
+    padding-top: 20px;
+    height: 100%;
+    background-image: url("../images/background/bgImage.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+#button-block {
+    position: relative;
+    background: transparent;
+    margin-top: 10px;
+}
+
+#mychar {
+    position: relative;
+}
+
+#main h2 {
+    margin-top: 15px;
+}
+
+#btns {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+form {
+    margin-top: 25px;
+}
+
+#graph-block {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    position: relative;
+}
+
+@media only screen and (max-width: 550px) {
+    .container{
+        height: 400px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .container{
+        height: 450px;
+    }
+}
